@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ca68fced-f5f7-4b85-b46a-91479fbb1eac" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/shapes/Square.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/shapes/Rectangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/shapes/Rectangle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tests/SquareTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests/SquareTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -14,11 +15,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/tests/RectangleTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="377">
-              <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
+            <state relative-caret-position="388">
+              <caret line="42" column="9" lean-forward="true" selection-start-line="42" selection-start-column="9" selection-end-line="42" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#917#918#0" expanded="true" />
@@ -40,6 +41,33 @@
                 <element signature="e#493#494#0" expanded="true" />
                 <element signature="e#534#535#0" expanded="true" />
                 <element signature="e#570#571#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/tests/SquareTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="315">
+              <caret line="23" column="1" lean-forward="true" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/shapes/Square.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+              <folding>
+                <element signature="e#166#167#0" expanded="true" />
+                <element signature="e#193#194#0" expanded="true" />
+                <element signature="e#308#309#0" expanded="true" />
+                <element signature="e#342#343#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -74,10 +102,11 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/tests/SquareTest.java" />
         <option value="$PROJECT_DIR$/src/shapes/Shape.java" />
         <option value="$PROJECT_DIR$/src/tests/RectangleTest.java" />
         <option value="$PROJECT_DIR$/src/shapes/Rectangle.java" />
+        <option value="$PROJECT_DIR$/src/tests/SquareTest.java" />
+        <option value="$PROJECT_DIR$/src/shapes/Square.java" />
       </list>
     </option>
   </component>
@@ -128,11 +157,12 @@
     <property name="Repository.Attach.Annotations" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1635885485389" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1635885903485" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/shapes" />
+      <recent name="$PROJECT_DIR$/src/tests" />
       <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
@@ -148,7 +178,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.RectangleTest.testSetHeight">
+  <component name="RunManager" selected="JUnit.SquareTest">
     <configuration name="RectangleTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="softenlab3" />
       <extension name="coverage">
@@ -179,22 +209,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RectangleTest.testWidth" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="softenlab3" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.RectangleTest" />
-      <option name="METHOD_NAME" value="testWidth" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="SquareTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="softenlab3" />
       <extension name="coverage">
@@ -209,12 +223,45 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SquareTest.testSetSide" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="softenlab3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.SquareTest" />
+      <option name="METHOD_NAME" value="testSetSide" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SquareTest.testSide" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="softenlab3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.SquareTest" />
+      <option name="METHOD_NAME" value="testSide" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.SquareTest" />
+        <item itemvalue="JUnit.SquareTest.testSide" />
+        <item itemvalue="JUnit.SquareTest.testSetSide" />
         <item itemvalue="JUnit.RectangleTest.testSetHeight" />
         <item itemvalue="JUnit.RectangleTest" />
-        <item itemvalue="JUnit.RectangleTest.testWidth" />
-        <item itemvalue="JUnit.SquareTest" />
       </list>
     </recent_temporary>
   </component>
@@ -232,9 +279,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="RectangleTest - 2021.11.02 at 21h 59m 42s.xml">
-      <configuration name="RectangleTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="SquareTest - 2021.11.02 at 22h 04m 40s.xml">
       <configuration name="SquareTest" configurationId="JUnit" />
     </history-entry>
@@ -249,6 +293,21 @@
     </history-entry>
     <history-entry file="RectangleTest - 2021.11.03 at 00h 02m 19s.xml">
       <configuration name="RectangleTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RectangleTest - 2021.11.03 at 00h 05m 02s.xml">
+      <configuration name="RectangleTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RectangleTest_testSetHeight - 2021.11.03 at 00h 05m 06s.xml">
+      <configuration name="RectangleTest.testSetHeight" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SquareTest_testSetSide - 2021.11.03 at 00h 11m 40s.xml">
+      <configuration name="SquareTest.testSetSide" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SquareTest_testSide - 2021.11.03 at 00h 12m 29s.xml">
+      <configuration name="SquareTest.testSide" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SquareTest - 2021.11.03 at 00h 12m 41s.xml">
+      <configuration name="SquareTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TodoView">
@@ -311,23 +370,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/shapes/Square.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/tests/SquareTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="14" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/softenlab3.iml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -335,6 +377,18 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tests/RectangleTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="388">
+          <caret line="42" column="9" lean-forward="true" selection-start-line="42" selection-start-column="9" selection-end-line="42" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#917#918#0" expanded="true" />
+            <element signature="e#986#987#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -353,14 +407,25 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/tests/RectangleTest.java">
+    <entry file="file://$PROJECT_DIR$/src/tests/SquareTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="377">
-          <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
+        <state relative-caret-position="315">
+          <caret line="23" column="1" lean-forward="true" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#917#918#0" expanded="true" />
-            <element signature="e#986#987#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/shapes/Square.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+          <folding>
+            <element signature="e#166#167#0" expanded="true" />
+            <element signature="e#193#194#0" expanded="true" />
+            <element signature="e#308#309#0" expanded="true" />
+            <element signature="e#342#343#0" expanded="true" />
           </folding>
         </state>
       </provider>
