@@ -22,4 +22,12 @@ public class Rectangle implements Shape{
     public int computeArea() {
         return width*height;
     }
+
+    public void setWidth(int width) {
+        this.width = 100;
+    }
+
+    public void setHeight(int height) {
+        this.height = 100;
+    }
 }
