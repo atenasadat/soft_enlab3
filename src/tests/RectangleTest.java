@@ -33,17 +33,4 @@ class RectangleTest {
     }
 
 
-    @Test
-    void testSetWidth() {
-        int width = 6;
-        rectangle.setWidth(width);
-        assertEquals(rectangle.getWidth(), width);
-    }
-
-    @Test
-    void testSetHeight() {
-        int height = 13;
-        rectangle.setHeight(height);
-        assertEquals(rectangle.getHeight(), height);
-    }
 }
