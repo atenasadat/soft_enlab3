@@ -16,6 +16,17 @@ public class SquareTest {
         square = new Square(side);
     }
 
+    @Test
+    void testSide() {
+        assertEquals(square.getSide(), side);
+    }
+
+    @Test
+    void testSetSide() {
+        int side = 4;
+        square.setSide(side);
+        assertEquals(square.getSide(), side);
+    }
 
     @Test
     void testArea() {
