@@ -20,6 +20,6 @@ public class Rectangle implements Shape{
 
     @Override
     public int computeArea() {
-        return -20;
+        return width*height;
     }
 }
