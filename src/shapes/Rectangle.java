@@ -24,10 +24,10 @@ public class Rectangle implements Shape{
     }
 
     public void setWidth(int width) {
-        this.width = 100;
+        this.width = width;
     }
 
     public void setHeight(int height) {
-        this.height = 100;
+        this.height = height;
     }
 }
